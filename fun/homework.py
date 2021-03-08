@@ -24,7 +24,7 @@ pass
 
 def add_list_numbers(incoming_list):
    return_value = sum(incoming_list)
-   if return_value = None: 
+   if return_value is None: 
        return 0
    else:
        return return_value
