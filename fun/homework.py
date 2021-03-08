@@ -1,6 +1,6 @@
 """Homework file for my students to have fun with some algorithms! """
 
-    incoming_list = [1,2,3,5,8,13,21,34,55]
+    incoming_list = [1, 2, 3, 5, 8, 13, 21, 34, 55]
     incoming_dict = {"Internazionale": 59, "AC Milan": 56, "Juventus": 52, "AS Roma": 50, "Atalanta B.C.": 49} 
 
 def find_greatest_number(incoming_list):
