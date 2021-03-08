@@ -1,7 +1,4 @@
 """Homework file for my students to have fun with some algorithms! """
-incoming_list = [1, 2, 3, 5, 8, 13, 21, 34, 55]
-incoming_dict = {"Internazionale": "Best team", "AC Milan": "Runnersup", "Juventus": "Bronze",
-"AS Roma": "4th Clinchers", "Atalanta B.C.": "Sadness"}
 
 def find_greatest_number(incoming_list):
     """Finds the largest number in the list."""
