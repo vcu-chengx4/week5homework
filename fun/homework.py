@@ -25,7 +25,7 @@ def add_list_numbers(incoming_list):
     if incoming_list is None:
         return 0
     else: 
-    return_value = sum(incoming_list)
+        return_value = sum(incoming_list)
         return return_value
 """
 Required parameter, incoming_list, should be a list.
