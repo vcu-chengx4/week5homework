@@ -35,7 +35,7 @@ def longest_value_key(incoming_dict):
     """
     Required parameter, incoming_dict, should be a dict.
     Find the KEY that has a value with the highest length, use the len() function
-    solution found at https://stackoverflow.com/questions/19845258/list-as-value-in-dictionary-get-key-of-longest-list"""
+    solution found at https://stackoverflow.com/questions/19845258/list-as-value-in-dictionary-get-key-of-longest-list
     """
     if incoming_dict is not None:
         if len(incoming_dict) == 0:
