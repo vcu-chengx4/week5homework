@@ -23,17 +23,18 @@ pass
 
 
 def add_list_numbers(incoming_list):
-   return_value = sum(incoming_list)
+   return_value = sum(x if x is not None else 0 for x in incoming_list)
    return return_value
 """
 Required parameter, incoming_list, should be a list.
 Add all the values together and return it.
+Solution found in https://stackoverflow.com/questions/12229902/sum-a-list-which-contains-none-using-python
 """
 pass
 
 
 def longest_value_key(incoming_dict):
-    len(incoming_dict)
+    max(len(incoming_dict) for x in d )
     return_value = len(incoming_dict)
     return return_value
 """
